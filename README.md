@@ -4,7 +4,7 @@
 [![License][license-image]][license-url]
 ![Coverage badge][coverage-badge]
 
-[npm-url]: https://www.npmjs.com/package/make-coverage-badge
+[npm-url]: https://www.npmjs.com/package/eslint-plugin-flow-missing
 [npm-image]: https://img.shields.io/npm/v/make-coverage-badge.svg
 [license-url]: https://opensource.org/licenses/MIT
 [license-image]: https://img.shields.io/npm/l/make-coverage-badge.svg
