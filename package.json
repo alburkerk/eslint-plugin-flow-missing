@@ -1,12 +1,8 @@
 {
   "name": "eslint-plugin-flow-missing",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Warn if flow is missing at the head of each file",
-  "keywords": [
-    "eslint",
-    "eslintplugin",
-    "eslint-plugin"
-  ],
+  "keywords": ["eslint", "eslintplugin", "eslint-plugin"],
   "author": "alburkerk",
   "main": "./index.js",
   "scripts": {
