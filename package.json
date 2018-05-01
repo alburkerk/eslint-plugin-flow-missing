@@ -1,0 +1,22 @@
+{
+  "name": "eslint-plugin-flow-missing",
+  "version": "1.0.0",
+  "description": "Warn if flow is missing at the head of each file",
+  "keywords": ["eslint", "eslintplugin", "eslint-plugin"],
+  "author": "alburkerk",
+  "main": "./index.js",
+  "scripts": {
+    "test": "mocha tests/lib/rules --recursive"
+  },
+  "dependencies": {
+    "requireindex": "~1.1.0"
+  },
+  "devDependencies": {
+    "eslint": "~3.9.1",
+    "mocha": "^3.1.2"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "license": "ISC"
+}
