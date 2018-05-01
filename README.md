@@ -3,7 +3,7 @@
 Mere ESLint plugin with one rule to check if one didn't forget to add the
 
 ```
-// @ flow
+// @flow
 ```
 
 header on each .js file. This rule was needeed not only because forgetting to add flow is a bad practice, but also because forgetting to add it resulted in linter bugs for imports, therefore creating issues with our CI.
@@ -46,6 +46,8 @@ Then configure the rules you want to use under the rules section.
 
 ## Examples
 
+NB: The linter is only checking when the file's extensions is '.js'
+
 The following examples are all valid :
 
 ```
@@ -85,4 +87,12 @@ const test = 0;
 const test = 0;
 
 ...
+```
+
+## Contributing
+
+Feel free to do anything and submit. Just check tests before submitting :
+
+```
+npm test
 ```
