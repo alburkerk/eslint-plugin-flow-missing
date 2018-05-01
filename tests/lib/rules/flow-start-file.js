@@ -32,6 +32,10 @@ var example_not_js_file = fs.readFileSync(
   "./tests/lib/testFiles/example-not-js-file.php",
   "utf8"
 );
+var example_empty_file = fs.readFileSync(
+  "./tests/lib/testFiles/example-empty-file.js",
+  "utf8"
+);
 
 //------------------------------------------------------------------------------
 // Tests
@@ -50,16 +54,14 @@ ruleTester.run("flow-start-file", rule, {
       filename: "example-block-comment-before.js"
     },
     {
+      code: " ",
+      filename: "example-empty-file.js"
+    },
+    {
       code: example_not_js_file,
-      filename: "example-not-js-file.js.php",
-      errors: [
-        {
-          message: "Missing // @flow at the start of the file"
-        }
-      ]
+      filename: "example-not-js-file.js.php"
     }
   ],
-
   invalid: [
     {
       code: example_no_space,

@@ -1,5 +1,15 @@
 # eslint-plugin-flow-missing
 
+[![npm version][npm-image]][npm-url]
+[![License][license-image]][license-url]
+![Coverage badge][coverage-badge]
+
+[npm-url]: https://www.npmjs.com/package/make-coverage-badge
+[npm-image]: https://img.shields.io/npm/v/make-coverage-badge.svg
+[license-url]: https://opensource.org/licenses/MIT
+[license-image]: https://img.shields.io/npm/l/make-coverage-badge.svg
+[coverage-badge]: https://img.shields.io/badge/Coverage-100%25-brightgreen.svg
+
 Mere ESLint plugin with one rule to check if one didn't forget to add the
 
 ```
