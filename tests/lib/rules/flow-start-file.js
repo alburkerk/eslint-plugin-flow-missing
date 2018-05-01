@@ -68,7 +68,8 @@ ruleTester.run("flow-start-file", rule, {
         {
           message: "Missing // @flow at the start of the file"
         }
-      ]
+      ],
+      output: example_good
     },
     {
       code: example_no_flow,
@@ -77,7 +78,8 @@ ruleTester.run("flow-start-file", rule, {
         {
           message: "Missing // @flow at the start of the file"
         }
-      ]
+      ],
+      output: example_good
     }
   ]
 });
